@@ -1,0 +1,109 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    background-color: #fce3f9;
+}
+
+
+.navbar,
+.header,
+.content1,
+.content2,
+.content3,
+.footer {
+    display: flex;
+}
+
+.navbar {
+    justify-content: space-between;
+}
+
+.header,
+.content1 {
+    flex-direction: column;
+}
+
+.content2,
+.footer {
+    justify-content: center;
+}
+
+.content3 {
+    background-color: #f0aae5;
+    color: white;
+    height:200px;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    margin:80px 150px 80px 150px;
+    padding: 20px;
+   
+}
+
+
+/* everything below this is for styling text and stuff. no flexbox or containers here yet */
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:60px;
+}
+
+h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+}
+
+
+
+.content3hd {
+    font-size:50px;
+    font-weight:800;
+    margin: 40px 0px 0px 0px;
+
+}
+
+.content3text {
+    font-size:30px;
+    margin: 0px 0px 40px 0px;
+ 
+}
+
+.button2 {
+    align-self: center;
+    padding:10px 30px 10px 30px;
+    font-size:25px;
+    color: coral; 
+    border-radius: 20px;
+    border-color: #F9FAF8;
+    margin-right: 30px;
+}
+
+.footer {
+    font-size: 20px;
+}
+
+
+img {
+    height: 250px;
+    width: 350px;
+}
+
+#travelpic {
+    height: 350px;
+    width: 500px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    font-size: 25px;
+}
+
+li {
+    padding: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
