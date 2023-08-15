@@ -1,7 +1,8 @@
 body {
     font-family:Arial, Helvetica, sans-serif;
     min-height: 100vh;
-    background-color: #fce3f9;
+    margin: 0px;
+    background-color: #64bfed;
 }
 
 
@@ -12,85 +13,34 @@ body {
 .content3,
 .footer {
     display: flex;
+    flex: 1;
 }
 
-.navbar {
-    justify-content: space-between;
-}
 
-.header,
+.content2,
 .content1 {
     flex-direction: column;
 }
 
-.content2,
-.footer {
+.content2 {
     justify-content: center;
 }
 
-.content3 {
-    background-color: #f0aae5;
-    color: white;
-    height:200px;
-    justify-content: space-around;
-    margin-left: auto;
-    margin-right: auto;
-    margin:80px 150px 80px 150px;
-    padding: 20px;
-   
+.footer { 
+    justify-content: flex-end;
+    align-self: center;
 }
 
+/* navbar section */
 
-/* everything below this is for styling text and stuff. no flexbox or containers here yet */
-
-h1 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size:60px;
+.navbar {
+    background-color:#3281a8;
+    padding: 10px 100px 10px 100px;
+    justify-content: space-between;
 }
 
 h2 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 40px;
-}
-
-
-
-.content3hd {
-    font-size:50px;
-    font-weight:800;
-    margin: 40px 0px 0px 0px;
-
-}
-
-.content3text {
-    font-size:30px;
-    margin: 0px 0px 40px 0px;
- 
-}
-
-.button2 {
-    align-self: center;
-    padding:10px 30px 10px 30px;
-    font-size:25px;
-    color: coral; 
-    border-radius: 20px;
-    border-color: #F9FAF8;
-    margin-right: 30px;
-}
-
-.footer {
-    font-size: 20px;
-}
-
-
-img {
-    height: 250px;
-    width: 350px;
-}
-
-#travelpic {
-    height: 350px;
-    width: 500px;
+    color: #94d6f7;
 }
 
 ul {
@@ -105,5 +55,212 @@ li {
 
 a {
     text-decoration: none;
-    color: black;
+    color: #94d6f7;
+    font-weight:200;
+}
+
+
+/* introduction section */
+
+.header {
+    background-color: #3281a8;
+    align-items: center;
+    justify-content: center;
+    padding: 90px;
+
+}
+
+.header1 {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 30px;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:70px;
+    margin: 0;
+    color:#94d6f7;
+}
+
+p {
+    font-size: 30px;
+    margin-top: 30px;
+    color:#94d6f7;
+}
+
+.button1 {
+    align-self:flex-start;
+    padding:10px 30px 10px 30px;
+    font-size:25px;
+    color: white;
+    border-radius: 20px;
+    background-color:#2787b8;
+    border-color: #F9FAF8;
+    margin-right: 30px;
+}
+
+.image {
+    padding-left: 70px;
+    padding-right: 70px;
+    margin-right: 2%;
+}
+
+#travelpic {
+    height: 350px;
+    width: 550px;
+    border-radius: 20px;
+    border-style:solid;
+    border-color: white;
+}
+
+/* favorite international cities section */
+
+.content1 {
+    background-color:#64bfed;
+    align-items: center;
+    padding: 70px 150px 70px 150px;
+}
+
+.content1info {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.content1info img {
+    margin: 15px 35px 15px 35px;
+    border-radius: 20px;
+}
+
+.content1text {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    text-align:center;
+    font-size:40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight:100;
+    color: #066a9c;
+
+}
+
+.content1text2 {
+    margin-top: 0px;
+    text-align:center;
+    font-size:25px;
+    font-style:italic;
+    color:#066a9c;
+}
+
+.content1intro {
+    font-family:Arial, Helvetica, sans-serif;
+    color:#066a9c;
+    font-size: 70px;
+    margin-bottom: 40px;
+}
+
+img {
+    border-style:solid;
+    border-color: white;
+}
+
+
+
+/* quote section */
+
+.content2 {
+    justify-content: center;
+    background-color: #d2edfa;
+    text-align: end;
+    padding: 30px 150px 30px 150px;
+}
+
+.quote {
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1a5f82;
+
+    margin-top: 200px;
+    margin-bottom: auto;
+
+}
+
+.quoter {
+    font-size: 25px;
+    font-weight: 700;
+    color: #1a5f82;
+
+    flex-basis: 200;
+    padding-left: 150px;
+    margin-bottom: 200px;
+}
+
+
+/* bottom of page information section */
+
+.content3 {
+    background-color: #2787b8;
+    color: white;
+    border-radius: 15px;
+    height:200px;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    margin:80px 300px 80px 300px;
+    padding: 20px;
+   
+}
+
+.content3hd {
+    font-size:50px;
+    font-weight:800;
+    margin: 40px 0px 0px 20px;
+    color: white;
+
+}
+
+.content3text {
+    font-size:30px;
+    margin: 0px 50px 40px 20px;
+    color: white;
+ 
+}
+
+.button2 {
+    align-self: center;
+    padding:10px 30px 10px 30px;
+    font-size:25px;
+    color:white;
+    border-radius: 20px;
+    background-color: #2787b8;
+    border-color: #F9FAF8;
+    margin-right: 30px;
+}
+
+/* footer section */
+
+.footer {
+    background-color:#d2edfa;
+}
+
+.footertext {
+    font-size: 25px;
+    color: #1a5f82;
+    margin-right: 20px;
+}
+
+
+
+h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+}
+
+img {
+    height: 250px;
+    width: 350px;
 }
