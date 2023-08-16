@@ -26,7 +26,7 @@ body {
     justify-content: center;
 }
 
-.footer { 
+.footer {
     justify-content: flex-end;
     align-self: center;
 }
@@ -35,18 +35,24 @@ body {
 
 .navbar {
     background-color:#3281a8;
-    padding: 10px 100px 10px 100px;
+    padding: 10px 80px 10px 80px;
+    align-items: center;
     justify-content: space-between;
 }
 
 h2 {
     color: #94d6f7;
+    font-family:Arial, Helvetica, sans-serif !important;
+    font-size: 30px;
+    font-weight: 100;
+    margin-right: 10px;
 }
 
 ul {
     list-style-type: none;
     display: flex;
-    font-size: 25px;
+    font-size: 20px;
+    margin-left: 10px;
 }
 
 li {
@@ -66,7 +72,7 @@ a {
     background-color: #3281a8;
     align-items: center;
     justify-content: center;
-    padding: 90px;
+    padding: 60px;
 
 }
 
@@ -76,12 +82,12 @@ a {
     text-align: left;
     padding-left: 50px;
     padding-right: 50px;
-    margin-left: 30px;
 }
 
 h1 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size:70px;
+    font-weight:200;
     margin: 0;
     color:#94d6f7;
 }
@@ -106,12 +112,11 @@ p {
 .image {
     padding-left: 70px;
     padding-right: 70px;
-    margin-right: 2%;
 }
 
 #travelpic {
-    height: 350px;
-    width: 550px;
+    height: 250px;
+    width: 400px;
     border-radius: 20px;
     border-style:solid;
     border-color: white;
@@ -122,7 +127,7 @@ p {
 .content1 {
     background-color:#64bfed;
     align-items: center;
-    padding: 70px 150px 70px 150px;
+    padding: 10px 50px 10px 50px;
 }
 
 .content1info {
@@ -140,8 +145,8 @@ p {
     margin-top: 0px;
     margin-bottom: 10px;
     text-align:center;
-    font-size:40px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:30px;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight:100;
     color: #066a9c;
 
@@ -150,7 +155,7 @@ p {
 .content1text2 {
     margin-top: 0px;
     text-align:center;
-    font-size:25px;
+    font-size:20px;
     font-style:italic;
     color:#066a9c;
 }
@@ -158,16 +163,16 @@ p {
 .content1intro {
     font-family:Arial, Helvetica, sans-serif;
     color:#066a9c;
-    font-size: 70px;
+    font-size: 50px;
     margin-bottom: 40px;
 }
 
 img {
     border-style:solid;
     border-color: white;
+    height: 200px;
+    width: 300px;
 }
-
-
 
 /* quote section */
 
@@ -184,7 +189,7 @@ img {
     font-weight: 100;
     color: #1a5f82;
 
-    margin-top: 200px;
+    margin-top: 100px;
     margin-bottom: auto;
 
 }
@@ -193,10 +198,8 @@ img {
     font-size: 25px;
     font-weight: 700;
     color: #1a5f82;
+    margin-bottom: 100px;
 
-    flex-basis: 200;
-    padding-left: 150px;
-    margin-bottom: 200px;
 }
 
 
@@ -208,24 +211,22 @@ img {
     border-radius: 15px;
     height:200px;
     justify-content: space-around;
-    margin-left: auto;
-    margin-right: auto;
-    margin:80px 300px 80px 300px;
+    margin: 60px 60px 60px 60px;
     padding: 20px;
    
 }
 
 .content3hd {
-    font-size:50px;
-    font-weight:800;
+    font-size:40px;
+    font-weight:500;
     margin: 40px 0px 0px 20px;
     color: white;
 
 }
 
 .content3text {
-    font-size:30px;
-    margin: 0px 50px 40px 20px;
+    font-size:25px;
+    margin: 15px 50px 40px 20px;
     color: white;
  
 }
@@ -250,17 +251,6 @@ img {
 .footertext {
     font-size: 25px;
     color: #1a5f82;
+    margin-top: 15px;
     margin-right: 20px;
-}
-
-
-
-h2 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 40px;
-}
-
-img {
-    height: 250px;
-    width: 350px;
 }
